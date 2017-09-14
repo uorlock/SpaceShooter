@@ -38,13 +38,6 @@ public class AsteroidScript : MonoBehaviour
         //obieqtebis ganadgureba
         Destroy(gameObject);
         Destroy(other.gameObject);
-
-        if (other.tag != "PlayerTag")
-        {
-            MotherOfSpawnPointers._instance.LaunchAsteroid();
-            Debug.Log("Asteroids moxvda");
-        }
-
     }
 
 }

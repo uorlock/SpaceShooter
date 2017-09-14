@@ -14,7 +14,7 @@ public class BorderScript : MonoBehaviour
         {
             Debug.Log("if");
 
-            MotherOfSpawnPointers._instance.LaunchAsteroid();
+            //MotherOfSpawnPointers._instance.LaunchAsteroid();
             Destroy(other.gameObject);
         }
 
